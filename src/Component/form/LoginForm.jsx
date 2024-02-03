@@ -4,7 +4,7 @@ import { TbPasswordUser } from "react-icons/tb";
 
 import "./form.css";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function LoginForm() {
   const [action, setAction] = useState("Login");
@@ -45,7 +45,7 @@ function LoginForm() {
           ) : (
             <div className="lost-password">
               Lost your Password?{" "}
-              <Link to={"/forgot-password"}>Click here!</Link>
+              <NavLink to={"/forgot-password"}>Click here!</NavLink>
             </div>
           )}
 
