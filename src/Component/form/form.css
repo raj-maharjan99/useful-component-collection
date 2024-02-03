@@ -1,0 +1,70 @@
+.flex {
+  display: flex;
+}
+.gap {
+  gap: 20px;
+}
+.justify {
+  justify-content: center;
+}
+.flex-dir {
+  flex-direction: column;
+}
+.align {
+  align-items: center;
+}
+.form {
+  border: 1px solid rgb(59, 57, 57);
+  padding: 50px 20px;
+  background: rgb(187, 184, 184);
+}
+.underline {
+  border-top: 3px solid #4b4e4c;
+  width: 50%;
+}
+.icon {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.form-parent {
+  background: rgb(27, 9, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.form-parent h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #0b0b8d;
+}
+.input {
+  background: gray;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin: 10px 30px;
+}
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  padding: 0 10px;
+  font-size: 19px;
+}
+.submit {
+  background-color: #4b4e4c; /* Green */
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.new-color {
+  background: #0000ff;
+}
+.hidden-div-signup {
+  padding: 12px;
+}
+.lost-password a {
+  color: blue;
+}
